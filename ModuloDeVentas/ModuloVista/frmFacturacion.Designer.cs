@@ -53,6 +53,7 @@
             this.lblIva = new System.Windows.Forms.Label();
             this.lblSubtotal = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -75,27 +76,30 @@
             // lblCliente
             // 
             this.lblCliente.AutoSize = true;
+            this.lblCliente.Font = new System.Drawing.Font("Rockwell Condensed", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCliente.Location = new System.Drawing.Point(35, 79);
             this.lblCliente.Name = "lblCliente";
-            this.lblCliente.Size = new System.Drawing.Size(65, 17);
+            this.lblCliente.Size = new System.Drawing.Size(55, 20);
             this.lblCliente.TabIndex = 2;
             this.lblCliente.Text = "CLIENTE";
             // 
             // lblNumero
             // 
             this.lblNumero.AutoSize = true;
+            this.lblNumero.Font = new System.Drawing.Font("Rockwell Condensed", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNumero.Location = new System.Drawing.Point(35, 29);
             this.lblNumero.Name = "lblNumero";
-            this.lblNumero.Size = new System.Drawing.Size(69, 17);
+            this.lblNumero.Size = new System.Drawing.Size(57, 20);
             this.lblNumero.TabIndex = 3;
             this.lblNumero.Text = "NUMERO";
             // 
             // lblProducto
             // 
             this.lblProducto.AutoSize = true;
+            this.lblProducto.Font = new System.Drawing.Font("Rockwell Condensed", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProducto.Location = new System.Drawing.Point(35, 127);
             this.lblProducto.Name = "lblProducto";
-            this.lblProducto.Size = new System.Drawing.Size(87, 17);
+            this.lblProducto.Size = new System.Drawing.Size(67, 20);
             this.lblProducto.TabIndex = 6;
             this.lblProducto.Text = "PRODUCTO";
             this.lblProducto.Click += new System.EventHandler(this.label3_Click);
@@ -120,9 +124,10 @@
             // lblCantidad
             // 
             this.lblCantidad.AutoSize = true;
+            this.lblCantidad.Font = new System.Drawing.Font("Rockwell Condensed", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCantidad.Location = new System.Drawing.Point(35, 173);
             this.lblCantidad.Name = "lblCantidad";
-            this.lblCantidad.Size = new System.Drawing.Size(77, 17);
+            this.lblCantidad.Size = new System.Drawing.Size(65, 20);
             this.lblCantidad.TabIndex = 7;
             this.lblCantidad.Text = "CANTIDAD";
             // 
@@ -153,6 +158,7 @@
             // 
             // btnAgregar
             // 
+            this.btnAgregar.Font = new System.Drawing.Font("Rockwell Condensed", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregar.Location = new System.Drawing.Point(392, 173);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(157, 30);
@@ -162,6 +168,7 @@
             // 
             // btnEliminar
             // 
+            this.btnEliminar.Font = new System.Drawing.Font("Rockwell Condensed", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.Location = new System.Drawing.Point(593, 173);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(176, 30);
@@ -189,6 +196,7 @@
             // 
             // btnFacturar
             // 
+            this.btnFacturar.Font = new System.Drawing.Font("Rockwell Condensed", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFacturar.Location = new System.Drawing.Point(12, 530);
             this.btnFacturar.Name = "btnFacturar";
             this.btnFacturar.Size = new System.Drawing.Size(161, 41);
@@ -198,6 +206,7 @@
             // 
             // btnImprimir
             // 
+            this.btnImprimir.Font = new System.Drawing.Font("Rockwell Condensed", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnImprimir.Location = new System.Drawing.Point(207, 530);
             this.btnImprimir.Name = "btnImprimir";
             this.btnImprimir.Size = new System.Drawing.Size(161, 41);
@@ -236,38 +245,52 @@
             // lblDescuento
             // 
             this.lblDescuento.AutoSize = true;
+            this.lblDescuento.Font = new System.Drawing.Font("Rockwell Condensed", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDescuento.Location = new System.Drawing.Point(593, 516);
             this.lblDescuento.Name = "lblDescuento";
-            this.lblDescuento.Size = new System.Drawing.Size(94, 17);
+            this.lblDescuento.Size = new System.Drawing.Size(74, 20);
             this.lblDescuento.TabIndex = 21;
             this.lblDescuento.Text = "DESCUENTO";
             // 
             // lblIva
             // 
             this.lblIva.AutoSize = true;
+            this.lblIva.Font = new System.Drawing.Font("Rockwell Condensed", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIva.Location = new System.Drawing.Point(723, 516);
             this.lblIva.Name = "lblIva";
-            this.lblIva.Size = new System.Drawing.Size(29, 17);
+            this.lblIva.Size = new System.Drawing.Size(29, 20);
             this.lblIva.TabIndex = 22;
             this.lblIva.Text = "IVA";
             // 
             // lblSubtotal
             // 
             this.lblSubtotal.AutoSize = true;
+            this.lblSubtotal.Font = new System.Drawing.Font("Rockwell Condensed", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSubtotal.Location = new System.Drawing.Point(851, 516);
             this.lblSubtotal.Name = "lblSubtotal";
-            this.lblSubtotal.Size = new System.Drawing.Size(82, 17);
+            this.lblSubtotal.Size = new System.Drawing.Size(66, 20);
             this.lblSubtotal.TabIndex = 23;
             this.lblSubtotal.Text = "SUBTOTAL";
             // 
             // lblTotal
             // 
             this.lblTotal.AutoSize = true;
+            this.lblTotal.Font = new System.Drawing.Font("Rockwell Condensed", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotal.Location = new System.Drawing.Point(981, 516);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(54, 17);
+            this.lblTotal.Size = new System.Drawing.Size(44, 20);
             this.lblTotal.TabIndex = 24;
             this.lblTotal.Text = "TOTAL";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Rockwell Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(611, 4);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(102, 24);
+            this.label1.TabIndex = 25;
+            this.label1.Text = "FACTURACION";
             // 
             // frmFacturacion
             // 
@@ -275,6 +298,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(1360, 580);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.lblSubtotal);
             this.Controls.Add(this.lblIva);
@@ -335,5 +359,6 @@
         private System.Windows.Forms.Label lblIva;
         private System.Windows.Forms.Label lblSubtotal;
         private System.Windows.Forms.Label lblTotal;
+        private System.Windows.Forms.Label label1;
     }
 }
